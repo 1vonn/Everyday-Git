@@ -54,8 +54,24 @@
 <li>After adding the files, you need to commit them to the repository. This step records the changes to the repository's history.</li>
 <li></li>
 </ol>
-<img src="initializing git repository.PNG" alt="screenshot">
+<img src="initialization.PNG" alt="screenshot">
 <p>Initializing a git repository</p>
     </div>
+    <div>
+        <h2>Adding files to the staging </h2>
+        <p>The staging area, often referred to as the "index," is a crucial concept in version control systems like Git.
+             It serves as a middle ground between your working directory.Tracked Files: These are files that Git is aware of and are already being version-controlled. Tracked files can be in one of three states: modified, staged (in the staging area), or committed (in the repository). Git actively tracks changes to these files While
+             Untracked Files: These are files that Git is not currently version-controlling. Untracked files are typically new files that you haven't added to Git yet. Git ignores these files unless you explicitly tell it to start tracking them</p>
+<h1>Process of adding files to the staging area</h1>
+<ol>
+<li>Check the Status of Your Files using command 'git status'.</li>
+<li>Add Files to the Staging Area using command 'git add' followed by name of the file.</li>
+<li>Verify the Staging Area using command 'git status'.</li>
+<li>Commit the Changes using command git commit -m 'Your message'</li>
+</ol>
+<img src="stagingarea.PNG" alt="screenshot">
+<p>Process of adding files to staging area</p>
+            </div>
+            
 </body>
 </html>
